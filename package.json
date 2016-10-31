@@ -1,5 +1,9 @@
 {
     "name": "typemoq-moduled",
+    "repository": "git+https://github.com/Choleriker/typemoq-moduled.git",
+    "author": {
+        "name": "Michael Baarz"
+    },
     "version": "1.0.0",
     "dependencies": {
         "lodash": "4.16.5"
