@@ -1,6 +1,6 @@
 # typemoq-moduled
 
-This is a mocking framework for typescript and a port of the excellent implementation of [typemoq](https://github.com/florinn/typemoq). This original typemoq implementation was not working for me for testing angular 2 application code.
+This is a mocking framework for typescript and a port of the excellent implementation of [typemoq](https://github.com/florinn/typemoq). This original typemoq implementation was not usable with my angular 2 application.
 
 ## Installation
 
