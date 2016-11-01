@@ -1,5 +1,5 @@
 ﻿import { ICallContext } from './ICallContext';
-
+import * as _ from 'lodash';
 
 export class MethodInvocation implements ICallContext {
     returnValue: any;

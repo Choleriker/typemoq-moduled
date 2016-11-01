@@ -54,8 +54,8 @@ export class InterceptorExecute<T> implements ICallInterceptor {
         });
     }
 
-    private interceptionStrategies(): _.List<IInterceptStrategy<T>> {
-        let strategies: _.List<IInterceptStrategy<T>> = [
+    private interceptionStrategies() {
+        let strategies = [
             new AddActualInvocation(),
             new ExtractProxyCall(),
             new ExecuteCall(),

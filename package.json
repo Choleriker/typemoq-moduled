@@ -4,12 +4,12 @@
     "author": {
         "name": "Michael Baarz"
     },
-    "version": "1.0.4",
+    "version": "1.0.5",
     "dependencies": {
         "lodash": "4.16.5"
     },
     "devDependencies": {
-        "lodash": "4.16.5"
+        "lodash": "~4.16.0"
     },
     "browserDependencies": {
         "lodash": "4.16.5"

@@ -3,7 +3,7 @@ import { MethodCallReturn } from './MethodCallReturn';
 import { Mock, MockBehavior } from './Mock';
 import { IGlobalMock } from './IGlobalMock';
 import { IFunc2, Ctor } from './Common';
-
+import * as _ from 'lodash';
 
 export enum GlobalType { Class, Function, Value }
 

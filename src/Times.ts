@@ -1,4 +1,5 @@
 ﻿import { IFunc2 } from './Common';
+import * as _ from 'lodash';
 
 export class Times {
 
