@@ -2,6 +2,24 @@
 
 This is a mocking framework for typescript and a port of the excellent implementation of [typemoq](https://github.com/florinn/typemoq). This original typemoq implementation was not usable with my angular 2 application.
 
+## Why?
+
+Someone maybe will ask why we need a mocking framework for untyped languages like javascript. We can simply mock like this:
+
+```typescript
+let mockedObject = {
+    methodToMock: () => {}
+}
+
+```
+And your mock is finished.
+
+> But is untyped, you have no automatic refactoring possibility later on the original object.
+
+But what is with the new spyOn() provided by jasmine which is used in many applications?
+
+> It's to common, good in most cases, but in some arent enough. For example verifying multiple calls or record / replay isnt provided by the spyOn() construct.
+
 ## Installation
 
 Use NPM to install typemoq-moduled:
@@ -10,7 +28,7 @@ Use NPM to install typemoq-moduled:
 npm install --save-dev typemoq-moduled 
 ```
 
-### Usage
+## Usage
 
 For detailed information how to use [typemoq](https://github.com/florinn/typemoq) review their [github repository](https://github.com/florinn/typemoq).
 
