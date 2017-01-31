@@ -18,7 +18,7 @@ And your mock is finished.
 
 But what is with the new spyOn() provided by jasmine which is used in many applications?
 
-> It's to common, good in most cases, but in some arent enough. For example verifying multiple calls or record / replay isnt provided by the spyOn() construct.
+> The spys are attached in an intyped way too.
 
 ## Installation
 
